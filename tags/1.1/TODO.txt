@@ -1,0 +1,4 @@
+
+Future:
+- Windows Media Player plug-in
+- Display (configurable?) HTML page for brower (ie. non-player) requests

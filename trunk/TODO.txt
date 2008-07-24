@@ -1,0 +1,15 @@
+For 1.5:
+- server.c: move HTTP request/reply part and streaming part into seperate functions
+
+For 1.6:
+- Remove all global data?
+- Display (configurable?) HTML page for brower (ie. non-player) requests
+- Replace hard-coded error messages (and message boxes) by meaningful return codes
+- CLEANUP in encoder.c: always refer to input buffer size as number of
+  16-bit samples (instead of number of bytes)
+
+Future:
+- Windows Media Player plug-in
+- Automatically transcode 8-bit samples to 16-bit samples
+- Automatically transcode stereo to mono, if required
+- Prove correctness of synchronization structures
